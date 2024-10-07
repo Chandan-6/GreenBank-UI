@@ -1,6 +1,6 @@
 export default function TrendInfo(){
     return (
-        <div className="w-full py-7 rounded-3xl px-10 bg-gray-500/30 backdrop-blur-md flex justify-around items-center mt-24">
+        <div className="w-full py-7 rounded-3xl px-10 bg-gray-500/30 backdrop-blur-md md:flex grid grid-cols-2 gap-6 justify-around items-center mt-24">
             {infoObject.map((item, index) => <Info key={index} value={item.value} title={item.title}/>)}
         </div>
     )

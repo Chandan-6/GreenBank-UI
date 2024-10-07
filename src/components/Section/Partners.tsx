@@ -1,6 +1,6 @@
 export default function Partners() {
     return (
-        <div className="flex justify-center items-center space-x-28 flex-wrap mt-24">
+        <div className="md2:flex justify-center items-center grid grid-cols-3 place-items-center gap-10 md2:gap-0 md2:space-x-28  flex-wrap mt-24">
             {ImageTitle.map((item, index) => <img key={index} src={`/partners/${item}`} alt="partners name" className="h-5"/>)}
             
         </div>
